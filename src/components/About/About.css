@@ -1,0 +1,96 @@
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+  }
+  
+  .about-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 20px;
+  } */
+
+ 
+/*   
+  .about-image {
+    float: right;
+    margin: 0 0 0 15px;
+  }
+   */
+  /* @media screen and (max-width: 1250px) {
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .about-title {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .about-image {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  } */
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.about-body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 145vh;
+}
+
+
+
+img {
+    width: 450px;
+    height: 350px;
+    float: left;
+    margin-right: 15px;
+  }
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 145, 255);
+}
+
+.text-box p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-box h1 {
+margin-bottom: 8px;
+}
+
+.about-image {
+    float: left;
+}
